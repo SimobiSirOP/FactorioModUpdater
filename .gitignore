@@ -1,0 +1,4 @@
+﻿.idea
+*.sln.DotSettings.user
+bin
+obj

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net10.0\CommandLine.dll" />
+      <Content Include="bin\Debug\net10.0\FactorioModUpdater.deps.json" />
+      <Content Include="bin\Debug\net10.0\FactorioModUpdater.dll" />
+      <Content Include="bin\Debug\net10.0\FactorioModUpdater.exe" />
+      <Content Include="bin\Debug\net10.0\FactorioModUpdater.pdb" />
+      <Content Include="bin\Debug\net10.0\FactorioModUpdater.runtimeconfig.json" />
+    </ItemGroup>
+
+</Project>
